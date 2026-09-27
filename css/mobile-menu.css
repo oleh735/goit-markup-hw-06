@@ -28,6 +28,10 @@
   padding: 72px 16px 40px 16px;
 }
 
+.contacts.header-link {
+  font-style: normal;
+}
+
 .mobile-contacts-wrapper {
   margin: 0;
 }

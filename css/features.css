@@ -30,6 +30,7 @@
 
 .feature-icon-wrapper {
   display: none;
+  margin-bottom: 8px;
 }
 
 @media (min-width: 768px) {
@@ -42,7 +43,6 @@
   .feature-card {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     flex-basis: calc((100% - 24px) / 2);
     width: calc((100% - 24px) / 2);
   }
