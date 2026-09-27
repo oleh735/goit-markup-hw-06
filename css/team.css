@@ -16,11 +16,12 @@
 .team-cards-wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 72px;
-  padding: 0 16px;
 }
 
 .team-member {
+  max-width: 264px;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -64,11 +65,11 @@
   .team-cards-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 64px 24px;
   }
 
   .team-member {
-    /* width: calc((100% - 72px) / 4); */
     flex-basis: calc((100% - 24px) / 2);
     width: calc((100% - 24px) / 2);
   }
@@ -86,5 +87,9 @@
   .team-member {
     flex-basis: calc((100% - 72px) / 4);
     width: calc((100% - 72px) / 4);
+  }
+
+  .team {
+    padding: 120px 0;
   }
 }
