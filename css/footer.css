@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: 72px;
-  padding: 0 16px;
 }
 
 .footer-logo {
@@ -30,7 +29,7 @@
 }
 
 .footer-text {
-  text-align: left;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   color: #f4f4fd;
@@ -44,7 +43,6 @@
 .footer-left {
   max-width: 288px;
   text-align: center;
-  /* margin-right: 120px; */
 }
 
 .footer-right {
@@ -137,10 +135,6 @@
 }
 
 @media (min-width: 768px) {
-  /* .footer {
-    padding: 0 108px;
-  } */
-
   .footer-container {
     max-width: 768px;
     margin: 0 auto;
@@ -173,6 +167,10 @@
   .footer-input {
     width: 264px;
   }
+
+  .footer-text {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1158px) {
@@ -185,6 +183,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 0 auto;
+    padding: 0 15px;
+    align-items: baseline;
   }
 
   .footer-form-container {

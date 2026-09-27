@@ -68,11 +68,6 @@
     justify-content: center;
     gap: 64px 24px;
   }
-
-  .team-member {
-    flex-basis: calc((100% - 24px) / 2);
-    width: calc((100% - 24px) / 2);
-  }
 }
 
 @media (min-width: 1158px) {
@@ -82,11 +77,6 @@
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .team-member {
-    flex-basis: calc((100% - 72px) / 4);
-    width: calc((100% - 72px) / 4);
   }
 
   .team {
